@@ -15,3 +15,11 @@ func _physics_process(delta):
 		velocity.x += speed 
 	if Input.is_action_pressed("jump"):
 		velocity.y -= jumping_speed
+
+func is_moving():
+	if Input.is_action_pressed("left") or Input.is_action_pressed("right"):
+		return true
+	return false
+
+func move_vector():
+	return Vector2(Input.get_action_strength("right") - Input.get_action_strength("left"),1.0)
