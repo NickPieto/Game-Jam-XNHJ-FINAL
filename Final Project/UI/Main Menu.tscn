@@ -1,7 +1,8 @@
-[gd_scene load_steps=6 format=2]
+[gd_scene load_steps=7 format=2]
 
 [ext_resource path="res://Assets/Orbitron Bold.ttf" type="DynamicFontData" id=1]
 [ext_resource path="res://UI/Main Menu.gd" type="Script" id=2]
+[ext_resource path="res://Assets/GameJamPossibleTrack3.mp3" type="AudioStream" id=3]
 
 [sub_resource type="DynamicFont" id=1]
 size = 55
@@ -62,6 +63,10 @@ margin_bottom = -10.0
 custom_colors/font_color = Color( 1, 0.266667, 0.266667, 1 )
 custom_fonts/font = SubResource( 3 )
 text = "Quit"
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 3 )
+autoplay = true
 
 [connection signal="pressed" from="Play" to="." method="_on_Play_pressed"]
 [connection signal="pressed" from="Quit" to="." method="_on_Quit_pressed"]
