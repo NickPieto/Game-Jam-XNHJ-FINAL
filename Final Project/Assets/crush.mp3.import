@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/crush.mp3-a2ac6a6fbb155f659dd208a540f21a12.mp3str"
+
+[deps]
+
+source_file="res://Assets/crush.mp3"
+dest_files=[ "res://.import/crush.mp3-a2ac6a6fbb155f659dd208a540f21a12.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

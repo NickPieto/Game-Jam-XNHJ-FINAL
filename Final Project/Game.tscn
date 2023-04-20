@@ -1,4 +1,4 @@
-[gd_scene load_steps=21 format=2]
+[gd_scene load_steps=22 format=2]
 
 [ext_resource path="res://Assets/background_wall.png" type="Texture" id=1]
 [ext_resource path="res://Assets/top_left_floor.png" type="Texture" id=2]
@@ -10,6 +10,7 @@
 [ext_resource path="res://Player/Player.tscn" type="PackedScene" id=8]
 [ext_resource path="res://Game.gd" type="Script" id=9]
 [ext_resource path="res://UI/Pause.tscn" type="PackedScene" id=10]
+[ext_resource path="res://Assets/GameJamPossibleTrack2.mp3" type="AudioStream" id=11]
 
 [sub_resource type="TileSet" id=1]
 0/name = "background_wall.png 0"
@@ -229,3 +230,7 @@ editor_draw_limits = true
 [node name="Pause" parent="UI" instance=ExtResource( 10 )]
 pause_mode = 2
 visible = false
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 11 )
+autoplay = true

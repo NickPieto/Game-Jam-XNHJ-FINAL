@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/chain.mp3-eacea6b860f7e34c7fcf667ef0b8c9a1.mp3str"
+
+[deps]
+
+source_file="res://Assets/chain.mp3"
+dest_files=[ "res://.import/chain.mp3-eacea6b860f7e34c7fcf667ef0b8c9a1.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0
