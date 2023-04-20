@@ -13,7 +13,6 @@ Coding the state machine and asset creation was the most difficulty.
 
 ## Implementation
 High jumps,
-Velocity based movement,
 Traps that kill you,
 
 Orbitron used from https://www.theleagueofmoveabletype.com/orbitron
