@@ -6,9 +6,9 @@ var velocity = Vector2.ZERO
 var jump_power = Vector2.ZERO
 var direction = 1
 
-export var gravity = Vector2(0,30)
+export var gravity = Vector2(0, 30)
 
-export var move_speed = 75
+export var move_speed = Vector2(75,0)
 export var max_move = 75
 
 export var jump_speed = 1000 #Set jump speed and max jump for a single, instantaneous jump
@@ -25,7 +25,8 @@ func _physics_process(_delta):
 	
 	if $State.text != SM.state_name: #Changes the text of label "State".
 		$State.text = SM.state_name
-		print(SM.state_name)
+		#print(SM.state_name)
+	#print(velocity)
 
 func set_direction(d):
 	direction = d

@@ -1,9 +1,18 @@
 extends Node2D
 
+onready var Pause_Menu = $UI/Pause
 
 func _ready():
 	pass
 
-func physics_process(_delta):
-	if Input.action_is_pressed("pause"):
-		var _scene = get_tree().change_scene("res://UI/Pause.tscn")
+func _unhandled_input(_event):
+	if Input.is_action_pressed("pause"):
+		#print("paused game")
+		if Pause_Menu.visible == true:
+			#print("visible")
+			get_tree().paused = false
+			Pause_Menu.hide()
+		else:
+			#print("invisible")
+			get_tree().paused = true
+			Pause_Menu.show()

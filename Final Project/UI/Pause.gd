@@ -1,14 +1,13 @@
 extends Control
 
-var Global
-
-func _ready():
-	pass
+func _input(_event):
+	if Input.is_action_pressed("pause"):
+		get_tree().paused = false
+		hide()
 
 func _on_Resume_pressed():
 	get_tree().paused = false
-	Global.reset()
-	var _scene = get_tree().change_scene("res://Game.tscn")
+	hide()
 
 func _on_Quit_pressed():
 	get_tree().quit()
