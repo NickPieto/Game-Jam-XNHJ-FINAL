@@ -1,24 +1,23 @@
 # Dungeness Crabs
 MSCH-C220 Game Jam, April 2023
 
-## PLAY THE LEVEL IN REVERSE
-Play the game from beginning to end. Then, go back and play it in reverse. 
+## GO ON A GEM HUNT
+Scour the maze for the gems!
 
 ## Game Play
-Objective
-Game-play instructions
+Collect any gems you see to win.
+A and D to move left and right. W to Jump.
 
 ## Impediments
 Coding the state machine and asset creation was the most difficulty. 
 
 ## Implementation
 High jumps,
-Collect gems and rerun the map to return them to the chest.
-
-Orbitron used from https://www.theleagueofmoveabletype.com/orbitron
+Collectible gems
 
 ## References
 
+Orbitron used from https://www.theleagueofmoveabletype.com/orbitron
 
 ## Future Development
 More levels, make gameplay feel better, shaders, more traps, enemies
