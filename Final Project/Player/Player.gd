@@ -27,6 +27,7 @@ func _physics_process(_delta):
 		$State.text = SM.state_name
 		#print(SM.state_name)
 	#print(velocity)
+	
 
 func set_direction(d):
 	direction = d
