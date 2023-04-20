@@ -8,8 +8,8 @@ var direction = 1
 
 export var gravity = Vector2(0,30)
 
-export var move_speed = 5
-export var max_move = 200
+export var move_speed = 75
+export var max_move = 75
 
 export var jump_speed = 1000 #Set jump speed and max jump for a single, instantaneous jump
 export var max_jump = 1000
