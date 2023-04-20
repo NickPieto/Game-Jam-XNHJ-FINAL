@@ -13,7 +13,7 @@ Coding the state machine and asset creation was the most difficulty.
 
 ## Implementation
 High jumps,
-Traps that kill you,
+Collect gems and rerun the map to return them to the chest.
 
 Orbitron used from https://www.theleagueofmoveabletype.com/orbitron
 
@@ -24,4 +24,4 @@ Orbitron used from https://www.theleagueofmoveabletype.com/orbitron
 More levels, make gameplay feel better, shaders, more traps, enemies
 
 # Created by: Group Name
-Xavier Evans- UI, Nick Pieto- Assets, Harvey Wheeler- Programmer, James Burke- Music
+Xavier Evans- UI, Nick Pieto- Sound Effects, Harvey Wheeler- Programmer/assets, James Burke- Music
