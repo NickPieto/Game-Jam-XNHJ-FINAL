@@ -16,3 +16,9 @@ func _unhandled_input(_event):
 			#print("invisible")
 			get_tree().paused = true
 			Pause_Menu.show()
+
+
+func _on_Gem_body_entered(body):
+	queue_free()
+	if queue_free():
+		var _scene = get_tree().change_scene("res://UI/Main Menu.tscn")
