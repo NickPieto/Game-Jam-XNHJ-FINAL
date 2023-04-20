@@ -1,4 +1,4 @@
-[gd_scene load_steps=26 format=2]
+[gd_scene load_steps=25 format=2]
 
 [ext_resource path="res://Assets/background_wall.png" type="Texture" id=1]
 [ext_resource path="res://Assets/top_left_floor.png" type="Texture" id=2]
@@ -13,9 +13,6 @@
 [ext_resource path="res://Assets/GameJamPossibleTrack2.mp3" type="AudioStream" id=11]
 [ext_resource path="res://Assets/Bricks_foreground.png" type="Texture" id=12]
 [ext_resource path="res://Assets/Bricks_background.png" type="Texture" id=13]
-
-[sub_resource type="ConvexPolygonShape2D" id=11]
-points = PoolVector2Array( 0, 0, 30.6994, 0, 30.6994, 30.7527, 0, 30.7527 )
 
 [sub_resource type="TileSet" id=1]
 0/name = "background_wall.png 0"
@@ -42,16 +39,9 @@ points = PoolVector2Array( 0, 0, 30.6994, 0, 30.6994, 30.7527, 0, 30.7527 )
 1/navigation_offset = Vector2( 0, 0 )
 1/shape_offset = Vector2( 0, 0 )
 1/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
-1/shape = SubResource( 11 )
 1/shape_one_way = false
-1/shape_one_way_margin = 1.0
-1/shapes = [ {
-"autotile_coord": Vector2( 0, 0 ),
-"one_way": false,
-"one_way_margin": 1.0,
-"shape": SubResource( 11 ),
-"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
-} ]
+1/shape_one_way_margin = 0.0
+1/shapes = [  ]
 1/z_index = 0
 
 [sub_resource type="ConvexPolygonShape2D" id=3]
