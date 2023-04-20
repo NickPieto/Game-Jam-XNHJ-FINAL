@@ -25,6 +25,7 @@ func _physics_process(_delta):
 	
 	if $State.text != SM.state_name: #Changes the text of label "State".
 		$State.text = SM.state_name
+		print(SM.state_name)
 
 func set_direction(d):
 	direction = d

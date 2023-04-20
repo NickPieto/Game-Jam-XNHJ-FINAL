@@ -13,7 +13,10 @@ func start():
 func physics_process(_delta):
 	if player.is_on_floor() and player.velocity.dot(Vector2.UP) < 0:
 		player.velocity.y = 0
-		SM.set_state("Idle")
+		if Input.is_action_pressed("left") or Input.is_action_pressed("right"):
+			SM.set_state("Moving")
+		else:
+			SM.set_state("Idle")
 	if player.is_on_ceiling():
 		player.velocity.y = 0
 	var input_vector = Vector2(Input.get_action_strength("right") - Input.get_action_strength("left"),1.0)
