@@ -18,5 +18,4 @@ func physics_process(_delta):
 	else: 
 		player.jump_power.y = clamp(player.jump_power.y - player.jump_speed, -player.max_jump, 0)
 		player.velocity += player.jump_power
-		print(player.velocity)
 		player.move_and_slide(player.velocity, Vector2.UP)
