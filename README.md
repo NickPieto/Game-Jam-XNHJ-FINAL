@@ -12,12 +12,17 @@ Game-play instructions
 Coding the state machine and asset creation was the most difficulty. 
 
 ## Implementation
-Features
-Assets, or resources used
+High jumps
+Velocity based movement
+Traps that kill you
+
+Orbitron used from https://www.theleagueofmoveabletype.com/orbitron
 
 ## References
 
+
 ## Future Development
+More levels, make gameplay feel better, shaders, more traps, enemies
 
 # Created by: Group Name
-Xavier Evans- Programmer, Nick Pieto- Sound Design, Harvey Wheeler- Art Design, James Burke- Music
+Xavier Evans- UI, Nick Pieto- Assets, Harvey Wheeler- Programmer, James Burke- Music
